@@ -1,0 +1,34 @@
+version: "3.1"
+
+intents:
+  - greet
+  - request_recipe
+  - goodbye
+
+entities:
+  - cuisine
+  - ingredient
+
+slots:
+  ingredient:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: ingredient
+
+  cuisine:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: cuisine
+
+responses:
+  utter_greet:
+    - text: "Hello! I can generate recipes for you. What ingredients do you have?"
+  utter_goodbye:
+    - text: "Happy cooking!"
+  utter_iamabot:
+    - text: "I am an AI recipee generator!"
+
+actions:
+  - action_generate_recipe

@@ -1,0 +1,11 @@
+version: "3.1"
+
+stories:
+- story: User asks for a recipe
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: request_recipe
+  - action: action_generate_recipe
+  - intent: goodbye
+  - action: utter_goodbye

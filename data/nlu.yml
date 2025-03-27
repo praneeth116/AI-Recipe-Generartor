@@ -1,0 +1,140 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: request_recipe
+  examples: |
+    - Can you suggest a recipe with [chicken](ingredient)?
+    - I have [tomato](ingredient) and [cheese](ingredient), any recipes?
+    - Give me an [Indian](cuisine) recipe with [eggs](ingredient).
+    - What can I cook with [broccoli](ingredient) and [garlic](ingredient)?
+    - Do you have a recipe that includes [pasta](ingredient)?
+    - Recommend a [Chinese](cuisine) dish with [tofu](ingredient).
+    - I need a [Mexican](cuisine) dish with [avocado](ingredient).
+    - What can I make with [lentils](ingredient) and [onions](ingredient)?
+    - I'd like a [French](cuisine) recipe using [beef](ingredient).
+    - I want something with [carrots](ingredient) and [peas](ingredient).
+    - Can you give me a [Thai](cuisine) recipe that has [coconut milk](ingredient)?
+    - I have [mushrooms](ingredient), what can I make?
+    - Suggest a dish with [spinach](ingredient) and [paneer](ingredient).
+    - What’s a good [Italian](cuisine) recipe using [basil](ingredient)?
+    - I need a vegan recipe with [lentils](ingredient) and [tomatoes](ingredient).
+    - Find me a quick recipe with [potatoes](ingredient).
+    - I want to cook something with [rice](ingredient) and [shrimp](ingredient).
+    - Suggest a [Korean](cuisine) dish with [kimchi](ingredient).
+    - What’s a great [American](cuisine) recipe using [beef](ingredient)?
+    - Give me a simple recipe with [chickpeas](ingredient).
+    - Can you provide a [Greek](cuisine) recipe that includes [olives](ingredient)?
+    - I want to make something spicy with [jalapeños](ingredient).
+    - Any dessert recipes with [chocolate](ingredient)?
+    - Suggest a smoothie recipe with [banana](ingredient) and [yogurt](ingredient).
+    - What are some good salads with [lettuce](ingredient) and [avocado](ingredient)?
+    - I need a [Middle Eastern](cuisine) dish with [hummus](ingredient).
+    - Any ideas for cooking with [eggplant](ingredient)?
+    - What are some easy meals with [beans](ingredient) and [corn](ingredient)?
+    - Can you give me a breakfast idea with [oats](ingredient)?
+    - I’m looking for a [Spanish](cuisine) recipe with [chorizo](ingredient).
+    - Recommend something sweet with [honey](ingredient) and [cinnamon](ingredient).
+    - What’s a quick lunch with [quinoa](ingredient)?
+    - I have leftover [turkey](ingredient), what can I make?
+    - Any ideas for a snack using [peanuts](ingredient)?
+    - Find me a low-carb meal with [zucchini](ingredient).
+    - I need a [Japanese](cuisine) recipe that includes [soy sauce](ingredient).
+    - I have [pumpkin](ingredient), what can I cook?
+    - Suggest a side dish with [cabbage](ingredient).
+    - What can I make with [salmon](ingredient) and [lemon](ingredient)?
+    - I want a healthy recipe with [kale](ingredient).
+    - Recommend a stir-fry with [bell peppers](ingredient) and [chicken](ingredient).
+    - Any pasta dishes with [pesto](ingredient)?
+    - Find me a soup recipe with [lentils](ingredient).
+    - I need a [Vietnamese](cuisine) dish with [fish sauce](ingredient).
+    - What are some healthy meals with [sweet potatoes](ingredient)?
+    - I want to cook something with [almonds](ingredient).
+    - Can you suggest a meal using [oranges](ingredient)?
+    - What can I make with [blueberries](ingredient)?
+    - Find me a simple dish with [garbanzo beans](ingredient).
+    - Recommend a good stew with [beef](ingredient).
+    - What’s a great way to use [rosemary](ingredient)?
+    - Give me a festive recipe with [cranberries](ingredient).
+    - I have [pork](ingredient), what can I cook?
+    - Any grilled dishes with [asparagus](ingredient)?
+    - I need a [Caribbean](cuisine) dish with [plantains](ingredient).
+    - Find me a light meal with [cucumber](ingredient).
+    - What’s a classic [French](cuisine) dish with [butter](ingredient)?
+    - Suggest a spicy curry with [coriander](ingredient).
+    - I want to make a dip using [avocado](ingredient).
+    - Recommend a drink with [pineapple](ingredient).
+    - Any appetizers using [brie](ingredient)?
+    - What’s a good way to use [parsley](ingredient)?
+    - I need a festive meal with [duck](ingredient).
+    - Any baked goods with [walnuts](ingredient)?
+    - I have [tofu](ingredient) and [garlic](ingredient), any ideas?
+    - Suggest a comfort food dish with [mashed potatoes](ingredient).
+    - What’s a tasty sandwich with [ham](ingredient)?
+    - Can you give me a warm dish with [ginger](ingredient)?
+    - I need a breakfast with [eggs](ingredient) and [toast](ingredient).
+    - Recommend something with [lamb](ingredient) and [rosemary](ingredient).
+    - Any grilled fish recipes with [lemon](ingredient)?
+    - What’s a great pie recipe with [apples](ingredient)?
+    - Can you suggest a dinner recipe with [green beans](ingredient)?
+    - Any desserts with [strawberries](ingredient)?
+    - What can I make with [coconut](ingredient) and [sugar](ingredient)?
+    - Recommend a light meal with [mango](ingredient).
+    - Any healthy ideas with [chia seeds](ingredient)?
+    - Find me a quick snack with [carrots](ingredient).
+    - I have [basil](ingredient), what’s a good way to use it?
+    - What’s a nutritious meal with [spinach](ingredient)?
+    - Suggest a high-protein dish with [lentils](ingredient).
+    - I want to make a [Mediterranean](cuisine) dish with [feta](ingredient).
+    - Can you provide a [Turkish](cuisine) recipe with [yogurt](ingredient)?
+    - What’s a good meal with [brown rice](ingredient)?
+    - Recommend a quick dinner with [chicken](ingredient).
+    - I need a soup with [tomatoes](ingredient) and [garlic](ingredient).
+    - Any grilled cheese recipes with [cheddar](ingredient)?
+    - Find me a homemade burger with [beef](ingredient).
+    - I have [coconut milk](ingredient), what can I make?
+    - Any curry dishes with [turmeric](ingredient)?
+    - Suggest a pasta sauce using [mushrooms](ingredient).
+    - What’s a light summer meal with [cucumber](ingredient)?
+    - Recommend a festive dish with [cloves](ingredient).
+    - I need a quick breakfast with [peanut butter](ingredient).
+    - Find me a cake recipe using [vanilla](ingredient).
+    - Any casserole dishes with [potatoes](ingredient)?
+    - Suggest a smoothie with [spinach](ingredient) and [banana](ingredient).
+    - What can I make with [butternut squash](ingredient)?
+    - I want a protein-packed dish with [chicken](ingredient) and [quinoa](ingredient).
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

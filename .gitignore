@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+rasa_env/
+env/
+*.venv
+
+# Logs & debug files
+*.log
+*.out
+*.err
+
+# Flask-related
+instance/
+*.db
+*.sqlite3
+
+# Rasa files
+models/
+*.tar.gz
+*.json
+*.lock
+.rasa/
+
+# API keys and environment variables
+.env
+*.env
+
+# Node.js (if using frontend with npm)
+node_modules/
+package-lock.json
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# JetBrains IDE settings
+.idea/
