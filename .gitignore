@@ -20,7 +20,6 @@ instance/
 *.sqlite3
 
 # Rasa files
-models/
 *.tar.gz
 *.json
 *.lock
