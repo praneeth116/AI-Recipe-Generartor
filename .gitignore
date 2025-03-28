@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # Virtual environment
+models/
 venv/
 rasa_env/
 env/
