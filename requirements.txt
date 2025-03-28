@@ -1,0 +1,5 @@
+flask
+rasa
+groq
+spacy
+python-dotenv
